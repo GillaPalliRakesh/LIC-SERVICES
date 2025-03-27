@@ -49,6 +49,19 @@ background-attachment: fixed;
   align-items: center;
 }
 
+
+.it{
+  -webkit-filter: drop-shadow(2px 2px 0 white)
+                drop-shadow(-2px 2px 0 white)
+                drop-shadow(2px -2px 0 white)
+                drop-shadow(-2px -2px 0 white);
+
+filter: drop-shadow(2px 2px 0 white)
+        drop-shadow(-2px 2px 0 white)
+        drop-shadow(2px -2px 0 white)
+        drop-shadow(-2px -2px 0 white);
+}
+
 @keyframes round {
   from {
     transform: rotate(0deg);
